@@ -11,6 +11,6 @@ for sig in sigs :
     signals.append(Signal(sig[0],sig[1],sig[2],sig[3]))
 
 for i in range(signals[-1].pos+ 2): 
-    print("|" if i in positions else ".", end="")
+    print("|" if i in positions or i == car.pos else ".", end="")
 
 print()
