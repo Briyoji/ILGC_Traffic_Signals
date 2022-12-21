@@ -9,4 +9,4 @@ class Car :
         self.mode = mode 
 
     def update_pos(self, time : int = 1) :
-        self.pos += self.speed * time
+        self.pos += round(self.speed/100) * time
