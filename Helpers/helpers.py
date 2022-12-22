@@ -2,7 +2,7 @@ from Helpers.car import *
 from Helpers.signals import *
 
 # Initialising the Signals...
-sigs = [[10, 120,5,60],[25, 120,5,60],[48, 120,5,60],[65, 120,5,60],[90, 120,5,60]]
+sigs = [[10, 120,0,60],[25, 120,0,60],[48, 120,0,60],[65, 120,0,60],[90, 120,0,60]]
 signals = [Signal(sig[0],sig[1],sig[2],sig[3]) for sig in sigs]
 positions = [pos[0] for pos in sigs]
 
